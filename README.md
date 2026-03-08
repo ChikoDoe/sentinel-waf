@@ -112,7 +112,7 @@ Sebelum install, pastikan kamu punya:
 ### Opsi A — One-liner (Direkomendasikan)
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sentinel-waf.git
+git clone https://github.com/ChikoDoe/sentinel-waf.git
 cd sentinel-waf
 sudo bash install.sh
 ```
@@ -138,7 +138,7 @@ Setelah installer selesai, lanjut ke [Konfigurasi](#-konfigurasi).
 #### 1. Clone repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/sentinel-waf.git
+git clone https://github.com/ChikoDoe/sentinel-waf.git
 cd sentinel-waf
 ```
 
@@ -531,7 +531,7 @@ PR welcome! Untuk perubahan besar, buka Issue dulu untuk diskusi.
 
 ```bash
 # Fork repo, lalu:
-git clone https://github.com/YOUR_USERNAME/sentinel-waf.git
+git clone https://github.com/ChikoDoe/sentinel-waf.git
 cd sentinel-waf
 git checkout -b feature/nama-fitur
 
@@ -554,6 +554,6 @@ git push origin feature/nama-fitur
 
 Dibuat dengan ☕ dan terlalu banyak ngintip nginx logs.
 
-**[⭐ Star repo ini kalau berguna!](https://github.com/YOUR_USERNAME/sentinel-waf)**
+**[⭐ Star repo ini kalau berguna!](https://github.com/ChikoDoe/sentinel-waf)**
 
 </div>

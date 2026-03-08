@@ -234,8 +234,9 @@ app.get('/api/cloudflare/rules', async (req, res) => {
 
 // ─── Start ────────────────────────────────────────────────────────────────────
 const PORT = process.env.PORT || 3001;
-httpServer.listen(PORT, '0.0.0.0', () => {
+httpServer.listen(PORT, '0.0.0.0', async () => {
   console.log(`[Sentinel WAF] Backend running on :${PORT}`);
+  await CloudflareManager.loadBlacklist().catch(e => console.warn('[CF] loadBlacklist skipped:', e.message));
   logReader.start();
 });
 
